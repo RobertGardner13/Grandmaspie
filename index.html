@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Login Page</title>
+    <script src="pie.js" defer></script>
+    <style>
+    body{
+    background-image: url(https://www.shutterstock.com/image-illustration/apple-pie-pattern-watercolor-cake-600nw-2343338849.jpg)
+        }
+
+    .hidden {
+    display: none;
+    color: red;
+    }
+
+    div{
+    background-color: red;
+    border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    }
+    </style>
+</head>
+<body>
+
+
+    <div>
+    <h1>Pie Recipe</h1>
+    <br>
+    <h2>Grandma is locked out of the account that holds her famous apple pie recipe. Can you help her get back in?</h2>
+    <br>
+    <img src="img/Firefly Heartbroken grandma in tears 82904.jpg" alt="SadGrandma"
+    width="400"
+    height="auto"/>
+    <br>
+    <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+        <br>
+        <button type="button" onclick="attemptLogin()">Login</button>
+    </form>
+    <div id="errorMessage" style="display: none;">
+        Incorrect username or password. Please try again.
+     </div>
+    </div>
+     
+</body>
+</html>
