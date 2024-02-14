@@ -18,6 +18,46 @@ function attemptLogin() {
     if (username === 'GrandmaPieLover1934' && password === 'P1E$foRday$$$$$mn1934289') {
         setAdminCookie(true, 1);
         alert('Login successful! Redirecting to the dashboard.');
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
         window.location.href = 'pieSsssssuccess39393818903040991902390419039090190149090109190909033342.html';
     } else {
         setAdminCookie(false, 1);
